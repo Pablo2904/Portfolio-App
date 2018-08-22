@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import About from "./components/About";
@@ -7,7 +6,9 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
-import Navigation from "./components/Navigation"
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+
 import './App.css';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
               <Route path ="/Contact" component={Contact} />
               <Route component={Error} />
             </Switch>
+            <Footer />
           </div>
         </BrowserRouter>
     );

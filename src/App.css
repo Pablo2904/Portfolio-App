@@ -1,28 +1,134 @@
-.App {
+/*About Component*/
+.aboutWrapper{
+  background: #cbcfd6;
+  color:black;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.aboutWrapper__img{
+  height: 35vh;
+  padding-top: 5em;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.aboutWrapper__info{
+  background-color: black;
+  opacity: .8;
+  border-radius: 10px;
   color: white;
 }
+.aboutWrapper__info h1 {
+  font-size: 3.6em;
+  font-weight: bold;
+}
+.aboutWrapper__info h2 {
+  font-size: 2.6em;
+}
+.aboutWrapper__info hr{
+  border-top: 0.8vh dotted white;
+  width: 80%;
+}
+.aboutWrapper__info p{
+  font-size:1.5em;
+  padding: 1em;
+  margin: auto;
+}
+.aboutWrapper__social {
+  width: 50%;
+  margin:auto;
+}
+.aboutWrapper__social i {
+  color:white;
+  font-size: 5em;
+}
+/*Projects section*/
+/**/
 
-.App-title {
-  font-size: 1.5em;
+.projectWrapper{
+  background: #cbcfd6;
+}
+.projectWrapper_card{
+  width: 50%;
+  margin:auto;
+  text-align: center;
+}
+.projectWrapper__info {
+  font-size: 1.1em;
+  margin-bottom: 4em;
+  width: 75%;
+  margin:auto;
+}
+.projectWrapper__info p+p {
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
-.App-intro {
-  font-size: large;
+.projectWrapper__info li{
+  list-style-type: none;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.projectWrapper_buttons a{
+  text-transform: uppercase;
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.4em;
+  box-sizing: border-box;
+  padding: 1em;
+}
+.projectWrapper_buttons a:hover{
+  background: #212529;
+  opacity: 0.8;
+  transition: 0.4s linear;
+  text-decoration: none;
+  border-radius: 1.3em;
+}
+/*Footer section*/
+.footerWrapper{
+  color:white;
+  background-color: #343a40;
+  text-align: center;
+  font-size: 0.8em;
+}
+.footerWrapper:first-child{
+  padding-top: 1em;
+}
+.footerWrapper i{
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+/*Media Queris*/
+@media all and (max-width:380px){
+  .aboutWrapper__social{
+    justify-content: space-around;
+    width:unset;
+  }
+  .aboutWrapper__info h1 {
+    font-size: 2.6em;
+  }
+  .aboutWrapper__info h2 {
+    font-size: 1.6em;
+  }
+  .aboutWrapper__info p{
+    font-size: 1.25em;
+  }
+}
+@media all and (max-width:480px){
+  .aboutWrapper__info h1 {
+    font-size: 3em;
+  }
+  .aboutWrapper__info h2 {
+    font-size: 2em;
+  }
+  .aboutWrapper__info p{
+    font-size: 1.1em;
+  }
+  .aboutWrapper__social i {
+    font-size: 3.8em;
+  }
+}
+@media all and (max-width:1020px){
+.projectWrapper_card{
+  width: 100%;
+  }
+}
+@media all and (max-width:1500px){
+.projectWrapper_card{
+  width: 85%;
+  }
 }
