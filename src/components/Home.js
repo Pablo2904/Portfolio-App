@@ -2,7 +2,7 @@ import React from 'react';
 import myAvatar from '../img/myAvatar.svg';
 
 
-const About = () => {
+const Home = () => {
   return (
     <div className="aboutWrapper container-fluid pt-5">
       <div className="row">
@@ -35,4 +35,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;

@@ -14,7 +14,7 @@ const Navigation = () => {
       <div className="collapse navbar-collapse" id="collapse_target">
         <ul className="navbar-nav mr-auto font-weight-bold ">
           <li className="nav-item ">
-            <NavLink className="nav-link" exact to="/">About</NavLink>
+            <NavLink className="nav-link" exact to="/">Home</NavLink>
           </li>
           <li className="nav-item">
           <NavLink className="nav-link" to="/Projects">Projects</NavLink>
@@ -23,7 +23,7 @@ const Navigation = () => {
             <NavLink className="nav-link" to="/Resume">Resume</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/Contact">Contact</NavLink>
+            <NavLink className="nav-link" to="/Contact">About&Contact</NavLink>
           </li>
         </ul>
       </div>

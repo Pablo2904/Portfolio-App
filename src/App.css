@@ -63,7 +63,7 @@
 .projectWrapper__info li{
   list-style-type: none;
 }
-.projectWrapper_buttons a{
+.projectWrapper__buttons a{
   text-transform: uppercase;
   margin-top: 1em;
   font-weight: bold;
@@ -71,12 +71,38 @@
   box-sizing: border-box;
   padding: 1em;
 }
-.projectWrapper_buttons a:hover{
+.projectWrapper__buttons a:hover{
   background: #212529;
   opacity: 0.8;
   transition: 0.4s linear;
   text-decoration: none;
   border-radius: 1.3em;
+}
+/*Resume Section*/
+/*Contact Section*/
+
+.contact__section{
+  text-align: center;
+}
+.contact__section img{
+  width: 50%;
+}
+.contact__section hr{
+  width: 75%;
+  height:2px;
+}
+.contact__section ul{
+  width: 75%;
+}
+.contact__list i {
+  font-size:1.5em;
+}
+.contact__list a:hover{
+  text-decoration: none;
+}
+.contact__about{
+  width: 60%;
+  margin: auto;
 }
 /*Footer section*/
 .footerWrapper{
@@ -121,14 +147,30 @@
   .aboutWrapper__social i {
     font-size: 3.8em;
   }
+  .projectWrapper__info img{
+    display: none;
+  }
+
 }
 @media all and (max-width:1020px){
-.projectWrapper_card{
+  .projectWrapper_card{
   width: 100%;
+  }
+  .contact__section hr {
+    width: 95%;
+  }
+  .contact__section ul {
+    width: 95%;
+  }
+  .contact__section img{
+    width: 60%;
+  }
+  .contact__about{
+    width: 100%;
   }
 }
 @media all and (max-width:1500px){
-.projectWrapper_card{
+  .projectWrapper_card{
   width: 85%;
   }
 }

@@ -6,7 +6,7 @@ import recipeapp from '../img/recipeapp.jpg';
 const Projects = () => (
   <div className="projectWrapper">
     <Tabs className="container-fluid">
-      <TabList className="d-flex pl-0 justify-content-center">
+      <TabList className="d-flex pl-0 justify-content-center pt-3 pb-5">
         <Tab>Weather App</Tab>
         <Tab>Recipe App</Tab>
       </TabList>
@@ -29,7 +29,7 @@ const Projects = () => (
                 <img className="img-fluid "src={weatherapp} alt="Weather app"/>
               </div>
 
-              <div className="projectWrapper_buttons d-flex justify-content-around flex-wrap">
+              <div className="projectWrapper__buttons d-flex justify-content-around flex-wrap">
                 <a href="">github</a>
                 <a href="">Live demo</a>
               </div>
@@ -56,7 +56,7 @@ const Projects = () => (
                 <img className="img-fluid "src={recipeapp} alt="Recipe app"/>
               </div>
 
-              <div className="projectWrapper_buttons d-flex justify-content-around flex-wrap">
+              <div className="projectWrapper__buttons d-flex justify-content-around flex-wrap">
                 <a href="">github</a>
                 <a href="">Live demo</a>
               </div>
