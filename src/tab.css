@@ -1,6 +1,8 @@
 .react-tabs__tab-list {
   margin: 0 0 10px;
   padding: 0;
+  overflow: scroll;
+  width: 500px;
 }
 
 .react-tabs__tab {
