@@ -2,7 +2,7 @@
   "name": "appl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Pablo2904.github.io/Portfolio-App",
+  "homepage": "https://Pablo2904.github.io/my-portfolio",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "gh-pages": "^1.2.0",
